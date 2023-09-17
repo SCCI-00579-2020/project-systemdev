@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> utensils and preparation items</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn/font-awesome/4.7.0/font-awesome.min.css">
+</head>
+<body>
+
+    
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="imagesk/logo.jpg" width="200px">*
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Home</a></li>             
+                   
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="imagesk/iconmenu.png" class="Menu-icon" onclick="menutoggle()">
+
+        </div>
+
+    </div>
+
+    <div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by Sale</option>
+        </select>
+
+    </div>
+        <div class="row">
+            <div class="col-5">
+                <img src="imagesk/mainset.jpg">
+                <h4>Mainset cooking utensis</h4>
+                <p>ksh 7000</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/matteporcelain.jpg">
+                <h4>Matte porcelein plates</h4>
+                <p>ksh800</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/simianendgrainchopping.jpg">
+                <h4>simiaendgrain chopping board</h4>
+                <p>ksh900</p>
+            </div>
+        
+            <div class="col-5">
+                <img src="imagesk/disposableplates.jpg">
+                <h4>Disposable plates</h4>
+                <p>ksh800</p>
+            </div>
+
+        </div>        
+
+        </div>
+        
+        </div>        
+        <div class="row">
+            <div class="col-5">
+                <img src="imagesk/whisk.jpeg">
+                <h4>whisk</h4>
+                <p>ksh500</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/utensils.jpg">
+                <h4>storage</h4>
+                <p>ksh800</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/containers.jpeg">
+                <h4>Containers</h4>
+                <p>ksh150</p>
+            </div>
+        
+            <div class="col-5">
+                <img src="imagesk/bosch10pieces.jpg">
+                <h4>Bosch 10 pieces set</h4>
+                <p>ksh5000</p>
+            </div>
+
+        </div>        
+                
+       
+        
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+
+
+
+</body>
+</html>

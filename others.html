@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> accessories and others</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn/font-awesome/4.7.0/font-awesome.min.css">
+</head>
+<body>
+
+    
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="imagesk/logo.jpg" width="200px">*
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>                   
+                    
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    
+                </ul>
+            </nav>
+            <img src="imagesk/iconmenu.png" class="Menu-icon" onclick="menutoggle()">
+
+        </div>
+
+    </div>
+
+    <div class="small-container">
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select>
+            <option>Default Sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by Sale</option>
+        </select>
+
+    </div>
+        <div class="row">
+            <div class="col-5">
+                <img src="imagesk/wineholder.jpg">
+                <h4>wineholder</h4>
+                <p>ksh700</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/tomatoslicehelper.jpg">
+                <h4>Slicer</h4>
+                <p>ks400</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/washoder.jpg">
+                <h4>Wash holder</h4>
+                <p>ksh250</p>
+            </div>
+        
+            <div class="col-5">
+                <img src="imagesk/stretchyfoodsavercovers.jpg">
+                <h4>Stretchy food daver covers</h4>
+                <p>ksh800</p>
+            </div>
+
+        </div>        
+
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <img src="imagesk/Wine-Rack-1.png">
+                <h4>Wine-Rack</h4>
+                <p>ksh2500</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/inductionc8750.jpg">
+                <h4>Induction cooker</h4>
+                <p>ksh8700</p>
+            </div>
+            <div class="col-5">
+                <img src="imagesk/pressc10.jpg">
+                <h4>Electric pressure cooker</h4>
+                <p>ksh1000</p>
+            </div>
+        
+            <div class="col-5">
+                <img src="imagesk/dish209.jpg">
+                <h4>Dishwasher</h4>
+                <p>ksh209000</p>
+            </div>
+
+        </div>        
+                
+       
+        
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+
+
+
+</body>
+</html>
